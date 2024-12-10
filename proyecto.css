@@ -1,0 +1,101 @@
+
+#TiposEnergia{
+  background-color: #d9ffc43b;
+  background-image: url(img/imagenes.jpg);
+  background-size: cover;
+}
+
+.logo{
+  height: 50px;
+}
+.navbar{
+  background-color: #0DA409 ;
+}
+.navbar-nav .nav-link:hover, .calculadora:hover, .estadistica:hover,
+#calculate:hover{
+  background-color:  #C2C539 !important;
+  color:  black  !important; 
+  border-radius: 8px;
+}
+a{
+  color: white !important;
+}
+img{
+  height: calc(8rem + 15vw);
+}
+.factura{
+  height: 17vh;
+}
+h1{
+  font-style: oblique;
+  color: #fff;
+}
+/* h2{
+  margin: 10px 30px 10px 30px;
+  } */
+.intro{
+  text-align: justify;
+  }
+article{
+  height: auto;
+  width: 90%;
+  border-left: 5px solid #228B22;
+  padding: 10px;
+  background-color:	#D9FFC4;
+}
+#QuienesSomos{
+  background-color: #d9ffc43b;
+  background-image: url(img/Equipo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.1em;
+}
+h5{
+  font-size: 1.1em;
+}
+.estadisticas{
+  text-align: justify;
+}
+
+
+
+
+
+
+/* #historico{
+  background-color: gray;
+}
+.logo{
+    height: 50px;
+}
+.navbar{
+    background-color: #0DA409 ;
+}
+a{
+    color: white !important;
+}
+img{
+  height: 35vh;
+}
+.factura{
+  height: 17vh;
+}
+h1{
+  font-style: oblique;
+  color: grey;
+}
+/* h2{
+  margin: 10px 30px 10px 30px;
+  } */
+/*
+.intro{
+  text-align: justify;
+  }
+article{
+  height: auto;
+  width: 90%;
+  border-left: 5px solid #228B22;
+  padding: 10px;
+  background-color:	#D9FFC4;
+}
+ */
