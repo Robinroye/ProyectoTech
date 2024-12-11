@@ -130,21 +130,35 @@
       </div>
     </div>
     <div class="buttons d-flex gap-3 mx-3 d-flex justify-content-center">
-      <button
+      <div class="dropdown d-flex justify-content-center mt-3">
+
+        <button class=" estadistica btn btn-lg  bg-success text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Conoce las estadísticas
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark" href="#">Colombia</a></li>
+          <li><a class="dropdown-item text-dark" href="#">United States</a></li>
+          <li><a class="dropdown-item text-dark" href="#">United Kingdon</a></li>
+          <li><a class="dropdown-item text-dark" href="#">Brasil</a></li>
+        </ul>
+      </div>
+  
+      <!-- <button
         type="button"
         class="estadistica btn btn-lg bg-success text-white"
       >
         Conoce las estadísticas
-      </button>
+      </button> -->
       <button
         type="button"
-        class="calculadora btn btn-lg bg-success text-white"
+        class="calculadora btn bg-success text-white"
         href="#Calculadora"
         onclick="smoothScroll(event, 'Calculadora')"
       >
         Calcula tu consumo
       </button>
     </div>
+    
     <div class="articulo d-flex justify-content-center mt-2">
       <article>
         Por “energía limpia” se entienden las fuentes de energía que no producen
@@ -155,7 +169,8 @@
       </article>
     </div>
 
-    <div class="estadisticas mx-3">
+    
+    <!-- <div class="estadisticas mx-3">
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
         voluptate quasi cupiditate illo neque laborum! Expedita fugiat dolorem
@@ -181,7 +196,7 @@
         perspiciatis, fugiat explicabo incidunt eum doloribus harum quos, iusto
         illum voluptatem.
       </p>
-    </div>
+    </div> -->
 
     <div
       id="Calculadora"
