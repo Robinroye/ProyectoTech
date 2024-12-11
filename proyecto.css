@@ -21,6 +21,7 @@ a{
 }
 img{
   height: calc(8rem + 15vw);
+  border-radius: 1rem;
 }
 .factura{
   height: 17vh;
