@@ -4,7 +4,6 @@
   background-image: url(img/imagenes.jpg);
   background-size: cover;
 }
-
 .logo{
   height: 50px;
 }
@@ -56,10 +55,6 @@ h5{
 .estadisticas{
   text-align: justify;
 }
-
-
-
-
 
 
 /* #historico{
