@@ -49,12 +49,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link fs-4 t" href="TiposEnergia.html"
-                  >Tipos de energia</a
+                  >Tipos de energía</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link fs-4 t" href="QuienesSomos.html"
-                  >Quienes somos?</a
+                  >¿Quiénes somos?</a
                 >
               </li>
             </ul>
@@ -129,16 +129,16 @@
         </p>
       </div>
     </div>
-    <div class="buttons d-flex gap-3 mx-3 d-flex justify-content-center">
-      <div class="dropdown d-flex justify-content-center mt-3">
-        <button class=" estadistica btn btn-lg  bg-success text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="buttons gap-3 mx-3 d-flex justify-content-center">
+      <div class="dropdown d-flex justify-content-center">
+        <button class=" estadistica btn bg-success text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Conoce las estadísticas
         </button>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item text-dark" href="#">Consumo Mundial</a></li onclick="smoothScroll(event, 'dropdown-item')"> 
-          <li><a class="dropdown-item text-dark" href="#">Consumo Sur America</a></li onclick="smoothScroll(event, 'dropdown-item')"> 
-          <li><a class="dropdown-item text-dark" href="#">Energia Renovable</a></li onclick="smoothScroll(event, 'dropdown-item')"> 
-          <li><a class="dropdown-item text-dark" href="#">Convencional vs Renovable</a></li onclick="smoothScroll(event, 'dropdown-item')"> 
+          <li><a class="dropdown-item text-dark" href="#mundial">Consumo Mundial</a></li onclick="smoothScroll(event, 'mundial')"> 
+          <li><a class="dropdown-item text-dark" href="#surcena">Consumo Sur America</a></li onclick="smoothScroll(event, 'surcena')"> 
+          <li><a class="dropdown-item text-dark" href="#produccion">Energía Renovable</a></li onclick="smoothScroll(event, 'produccion')"> 
+          <li><a class="dropdown-item text-dark" href="#convencional">Convencional vs Renovable</a></li onclick="smoothScroll(event, 'convencional')"> 
         </ul>
       </div>
   
@@ -154,7 +154,7 @@
         href="#Calculadora"
         onclick="smoothScroll(event, 'Calculadora')"
       >
-        Calcula tu solucion de  energia solar 
+        Calcula tu solución de  energía solar 
       </button>
     </div>
     
@@ -167,15 +167,14 @@
         ambiental como las energías a base de combustibles fósiles.
       </article>
     </div>
-    <div class="mx-3 my-5">
+    <div class="mx-3 my-3">
       <h3>
         Juliet Davenport OBE HonFEI, <br>
-        Fundadora del Instituto de Energia del Reino Unido
+        Fundadora del Instituto de Energía del Reino Unido
       </h3>
       <p class="intro">
         " La energía siempre ha sido y sigue siendo fundamental para el progreso y los logros humanos. También es, cada vez más, fundamental para nuestra supervivencia. Con un aumento de la temperatura global de cerca de 1,5 °C en promedio, 2023 fue el año más cálido desde que se tienen registros, y los impactos cada vez más severos del cambio climático se sintieron en todos los continentes. También experimentamos los efectos continuos de la disrupción geopolítica en los mercados energéticos y las economías y los medios de vida que estos sustentan.
           Como organismo profesional colegiado para personas que trabajan en todo el mundo de la energía, el Energy Institute se enorgullece de ser la sede de la Revisión estadística de la energía mundial. Nuestro objetivo es proporcionar una base de evidencia objetiva, independiente y completa para los tomadores de decisiones en los gobiernos, las empresas y la sociedad civil que enfrentan estos profundos desafíos." 
-          Presidenta del Instituto de Energía 
       </p> 
       <h3>
         Dr. Nick Wayth CEng FEI FIMechE, <br>
@@ -183,22 +182,21 @@
       </h3>
       <p class="intro">
         " La energía siempre ha sido y sigue siendo fundamental para el progreso y los logros humanos. También es, cada vez más, fundamental para nuestra supervivencia. Con un aumento de la temperatura global de cerca de 1,5 °C en promedio, 2023 fue el año más cálido desde que se tienen registros, y los impactos cada vez más severos del cambio climático se sintieron en todos los continentes. También experimentamos los efectos continuos de la disrupción geopolítica en los mercados energéticos y las economías y los medios de vida que estos sustentan.
-          Como organismo profesional colegiado para personas que trabajan en todo el mundo de la energía, el Energy Institute se enorgullece de ser la sede de la Revisión estadística de la energía mundial. Nuestro objetivo es proporcionar una base de evidencia objetiva, independiente y completa para los tomadores de decisiones en los gobiernos, las empresas y la sociedad civil que enfrentan estos profundos desafíos." 
-          Presidenta del Instituto de Energía 
+          Como organismo profesional colegiado para personas que trabajan en todo el mundo de la energía, el Energy Institute se enorgullece de ser la sede de la Revisión estadística de la energía mundial. Nuestro objetivo es proporcionar una base de evidencia objetiva, independiente y completa para los tomadores de decisiones en los gobiernos, las empresas y la sociedad civil que enfrentan estos profundos desafíos."  
       </p> 
 
     </div>
-    <div class="row">
-      <div class="col-12 estadisticas mx-5 my-3 d-flex justify-content-center">
+    <div class="row imagenes">
+      <div id="mundial" class="col-12 estadisticas my-3 d-flex justify-content-center">
         <img src="img/TortaMundial.png" alt="grafica torta" width="600" height="300">
       </div>
-      <div class="col-12 estadisticas mx-5 my-3 d-flex justify-content-center">
+      <div id="surcena" class="col-12 estadisticas my-3 d-flex justify-content-center">
         <img src="img/GraficaTortaSurCenAmerica.png" alt="grafica torta" width="600" height="300">
       </div>
-      <div class="col-12 estadisticas mx-5 my-3 d-flex justify-content-center">
+      <div id="produccion" class="col-12 estadisticas my-3 d-flex justify-content-center">
         <img src="img/ProduccionMundial.png" alt="grafica torta" width="600" height="300">
       </div>
-      <div class="col-12 estadisticas mx-5 my-3 d-flex justify-content-center">
+      <div id="convencional" class="col-12 estadisticas my-3 d-flex justify-content-center">
         <img src="img/ConvencionalvsRenovable.png" alt="grafica torta" width="600" height="300">
       </div>
     </div>
@@ -251,8 +249,8 @@
                 ><input type="text" class="consumo-diario border-0" />
               </p>
               <p>
-                <strong>Paneles solares necesarios:</strong> Para reemplazar al
-                100% su energia por energía solar, usted necesita:
+                <strong>Paneles solares necesarios:</strong> Para reemplazar el
+                100% de su consumo por energía solar, usted necesita:
                 <span id="paneles"> </span
                 ><input type="text" class="num-panel border-0" />
               </p>
@@ -265,7 +263,7 @@
         </div>
         <div class="card-footer text-center">
           <small class="text-muted"
-            >Resultados aproximados para un sistema off grid con autonomia de 1
+            >Resultados aproximados para un sistema off grid con autonomía de 1
             día</small
           >
         </div>
